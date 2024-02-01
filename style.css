@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: antiquewhite;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 5px solid gray;
+  border-radius: 20px;
+  padding: 3rem;
+}
+h1 {
+  color: chartreuse;
+}
+button {
+  height: 5rem;
+  width: 50vw;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  color: chocolate;
+  background-color: aqua;
+}
